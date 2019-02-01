@@ -21,5 +21,10 @@ namespace KaffeConsoleAppNetCore
         {
             return "Mild";
         }
+
+        public FlatWhite(int rabat) : base(rabat)
+        {
+           //constructor 
+        }
     }
 }
